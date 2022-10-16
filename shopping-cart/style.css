@@ -8,5 +8,13 @@
 header {
    padding: 20px 0 0 0;
    font-size: 18px;
-   color: ; 
+   color: #203354; 
+}
+
+header span {
+    color: red;;
+}
+
+header h2 {
+    padding-left: 60px;
 }
