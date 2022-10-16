@@ -8,7 +8,7 @@
 header {
    padding: 20px 0 0 0;
    font-size: 20px;
-   color: #203354; 
+   color:; 
    display: flex;
    margin: auto;
 }
@@ -18,15 +18,19 @@ header span {
 }
 
 header h2 {
-    padding-left: 60px;
+    color: #203354;
 }
 
 .container {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .container2 {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .container2 i {
