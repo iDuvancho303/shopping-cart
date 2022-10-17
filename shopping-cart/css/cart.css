@@ -6,6 +6,18 @@
     display: none;
 }
 
+.submenu:hover #cart {
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: #fdf3fa;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
 
 
 .cart {
