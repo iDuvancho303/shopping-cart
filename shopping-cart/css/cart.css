@@ -16,15 +16,7 @@
     padding: 20px;
     min-height: 400px;
     min-width: 300px;
+    border-radius: 5px;
 }
 
 
-
-.cart {
-    width: 400px;
-    background-color: aqua;
-}
-
-.cart th {
-    font-size: 16px;
-}
