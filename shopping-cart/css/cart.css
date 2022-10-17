@@ -1,20 +1,12 @@
-/*.cart {
-    visibility: hidden;
+.submenu {
+    position: relative;
 }
 
-.container2:hover .cart{
-    display: block;
-    position: absolute;
-    right:0;
-
-    top:100%;
-    z-index: 1;
-    background-color: white;
-    padding: 20px;
-    min-height: 400px;
-    min-width: 300px;
+.submenu #cart {
+    display: none;
 }
-*/
+
+
 
 .cart {
     width: 400px;
