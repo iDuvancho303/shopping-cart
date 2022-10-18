@@ -96,7 +96,11 @@ td:last-child {
 
 /* products section */
 #products {
-
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .products {
@@ -111,6 +115,11 @@ td:last-child {
     font-size: 25px;
     padding-top: 20px;
     color: #b3671e;
+}
+
+.row {
+    display: flex;
+    
 }
 
 .four.columns { width: 30.6666666667%; }
