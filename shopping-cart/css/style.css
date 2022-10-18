@@ -119,11 +119,13 @@ td:last-child {
 
 .row {
     display: flex;
+    justify-content: space-evenly; 
     
 }
 
-.four.columns { width: 30.6666666667%; }
+.four.columns /* { width: 30.6666666667%; } */
 
+}
 .card {
     text-align: center;
     border: 1px solid #e1e1e1;
