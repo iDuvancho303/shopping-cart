@@ -83,6 +83,7 @@ td:last-child {
     color: #203354;
     font-size: 40px;
     padding-left: 20px;
+    text-transform: uppercase;
 }
 
 .main-title h3 {
@@ -99,13 +100,15 @@ td:last-child {
 }
 
 .products {
-
 }
 
 .product-title {
 
 }
 
-.product-title h2 {
-    
+.product-title h2  {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    color: #b3671e;
 }
