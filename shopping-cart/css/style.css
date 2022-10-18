@@ -59,5 +59,8 @@ td:last-child {
 
 /* Background image */
 .main-img {
-    background-image: url();
+    background-image: url(../images/image.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
 }
