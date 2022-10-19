@@ -120,6 +120,7 @@ td:last-child {
 .row {
     display: flex;
     justify-content: space-evenly; 
+    margin-top: 50px;
     
 }
 
