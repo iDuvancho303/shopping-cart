@@ -124,9 +124,12 @@ td:last-child {
     
 }
 
-.four.columns /* { width: 30.6666666667%; } */
+.four.columns  { width: 30.6666666667%; } 
 
-}
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box; }
+
 .card {
     text-align: center;
     border: 1px solid #e1e1e1;
