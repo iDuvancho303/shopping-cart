@@ -121,7 +121,7 @@ td:last-child {
     
 }
 
-.four.columns  { width: 30.6666666667%; } 
+.four.columns  { width: 20%; } 
 
 .u-full-width {
     width: 100%;
@@ -131,6 +131,7 @@ td:last-child {
     text-align: center;
     border: 1px solid #e1e1e1;
     background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 .info-card  {
