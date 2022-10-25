@@ -143,16 +143,15 @@ td:last-child {
 .card h4 {
     margin-bottom: 5px;
 }
+
 .info-card .precio {
     text-decoration: line-through;
     font-size: 18px;
     margin-top: 10px;
 }
+
 .info-card .precio span {
     font-weight: 700;
     font-size: 22px;
-}
-
-span, .u-pull-right {
     text-decoration: none;
 }
