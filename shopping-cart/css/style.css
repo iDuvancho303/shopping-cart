@@ -128,7 +128,10 @@ td:last-child {
 
     
 .u-pull-right {
-    float: right; }
+    float: right;
+    color: #b3671e; 
+}
+
 
 .card {
     text-align: center;
