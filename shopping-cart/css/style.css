@@ -126,6 +126,10 @@ td:last-child {
     width: 100%;
     box-sizing: border-box; }
 
+    
+.u-pull-right {
+    float: right; }
+
 .card {
     text-align: center;
     border: 1px solid #e1e1e1;
@@ -149,8 +153,23 @@ td:last-child {
     margin-top: 10px;
 }
 
+
 .info-card .precio span {
     font-weight: 700;
     font-size: 22px;
-    text-decoration: none;
 }
+
+.button.button-primary {
+    color: #FFF;
+    background-color: #203354;
+    border-color: #203354;
+    padding: 5px;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 50px;
+}
+ 
+.agregar-carrito {
+        margin:10px 0;
+    }
+    
