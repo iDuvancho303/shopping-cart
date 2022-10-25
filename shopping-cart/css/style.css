@@ -10,7 +10,7 @@ header {
    font-size: 20px; 
    display: flex;
    margin: auto;
-   background-color: #fdf3fa;
+   background-color: #f5f3f3;
    height: 5vh;
 }
 
@@ -132,6 +132,7 @@ td:last-child {
     border: 1px solid #e1e1e1;
     background: white;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .info-card  {
@@ -150,4 +151,8 @@ td:last-child {
 .info-card .precio span {
     font-weight: 700;
     font-size: 22px;
+}
+
+span, .u-pull-right {
+    text-decoration: none;
 }
