@@ -144,7 +144,7 @@ td:last-child {
 
 .info-card p, 
 .card h4 {
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
 .info-card .precio {
@@ -163,9 +163,8 @@ td:last-child {
     color: #FFF;
     background-color: #203354;
     border-color: #203354;
-    padding: 5px;
+    padding: 8px 10px;
     width: 100%;
     text-decoration: none;
-    margin-top: 50px;
 }
  
