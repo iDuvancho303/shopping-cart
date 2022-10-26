@@ -12,6 +12,6 @@ function loadEventListeners() {
 }
 
 // Functions 
-function addingProducts() {
-    console.log('presionando en add to cart...testing')
+function addingProducts(e) {
+    console.log(e.target.classList);
 }
