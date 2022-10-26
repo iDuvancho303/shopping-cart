@@ -7,5 +7,11 @@ const emptyCartBtn = document.querySelector('#empty-cart');
 
 // Event listeners 
 function loadEventListeners() {
-    listOfProducts.addEventListener('click', )
+    // adding a product when clicking on "add to cart"
+    listOfProducts.addEventListener('click', addingProducts);
+}
+
+// Functions 
+function addingProducts() {
+    console.log('presionando en add to cart...testing')
 }
