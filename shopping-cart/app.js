@@ -7,7 +7,7 @@ const emptyCartBtn = document.querySelector('#empty-cart');
 
 
 
-loadEventListeners();
+loadEventListeners(); 
 // Event listeners 
 function loadEventListeners() {
     // adding a product when clicking on "add to cart"
@@ -16,9 +16,14 @@ function loadEventListeners() {
 
 // Functions 
 function addingProducts(e) {
+
+    e.preventDefault(); 
+
     if(e.target.classList.contains('agregar-carrito')) {
 
         e.preventDefault();
         console.log('agregando al carrito testing again');
     }
 }
+
+// Extract info about the course
