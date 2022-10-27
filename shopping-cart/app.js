@@ -13,7 +13,7 @@ function loadEventListeners() {
 
 // Functions 
 function addingProducts(e) {
-    if(e.target.classList.contains('agregar-carritp')) {
-        console.log('agregando al carrito testing again.');
+    if(e.target.classList.contains('agregar-carrito')) {
+        console.log('agregando al carrito testing again');
     }
 }
