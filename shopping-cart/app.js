@@ -21,13 +21,17 @@ function addingProducts(e) {
 
     if(e.target.classList.contains('agregar-carrito')) {
 
-        const selectedCourse = e.target.parentElement.parent.parentElement;
+        const selectedCourse = e.target.parentElement.parentElement;
         courseData(selectedCourse);
     }
 }
 
 
 // Extract info about the course
-const courseData() {
+function courseData(course) {
 
+    console.log(course);
+    
+
+    // Creating an object with course content
 }
