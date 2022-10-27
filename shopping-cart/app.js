@@ -37,7 +37,7 @@ function courseData(course) {
     const info = {
         image: course.querySelector('img').src,
         name: course.querySelector('h4').textContent,
-        price: course.querySelector('p span').textContent,
+        price: course.querySelector('p span').textContent,``
     }
 
     console.log(info);
