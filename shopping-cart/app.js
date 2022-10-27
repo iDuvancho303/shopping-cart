@@ -5,6 +5,9 @@ const listOfProducts = document.querySelector('#products');
 const emptyCartBtn = document.querySelector('#empty-cart');
 
 
+
+
+loadEventListeners();
 // Event listeners 
 function loadEventListeners() {
     // adding a product when clicking on "add to cart"
