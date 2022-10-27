@@ -33,5 +33,9 @@ function courseData(course) {
     console.log(course);
     
 
-    // Creating an object with course content
+    // Creating an object with course info
+    const info = {
+        image: course.querySelector('img').src
+    }
+
 }
