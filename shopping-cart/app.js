@@ -36,7 +36,8 @@ function courseData(course) {
     // Creating an object with course info
     const info = {
         image: course.querySelector('img').src,
-        name: course.querySelector('h4').textContent
+        name: course.querySelector('h4').textContent,
+        price: course.querySelector('p span').textContent,
     }
 
     console.log(info);
