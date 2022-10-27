@@ -21,9 +21,13 @@ function addingProducts(e) {
 
     if(e.target.classList.contains('agregar-carrito')) {
 
-        e.preventDefault();
-        console.log('agregando al carrito testing again');
+        const selectedCourse = e.target.parentElement.parent.parentElement;
+        courseData(selectedCourse);
     }
 }
 
+
 // Extract info about the course
+const courseData() {
+
+}
