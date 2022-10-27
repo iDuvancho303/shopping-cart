@@ -14,6 +14,8 @@ function loadEventListeners() {
 // Functions 
 function addingProducts(e) {
     if(e.target.classList.contains('agregar-carrito')) {
+
+        e.preventDefault();
         console.log('agregando al carrito testing again');
     }
 }
