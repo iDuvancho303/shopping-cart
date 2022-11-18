@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/4b1c7a602c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <h2>Roots<span> Coffee</span></h2>
+        </div>
+
+        <div class="container2">
+            <ul>
+                <li class="submenu">
+                    <i class="fa fa-shopping-cart" id="icon"></i>
+                    <div id="cart">
+                        <table id="shopping-cart">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th></th>
+                                </tr>
+                            </thead>    
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="empty-cart" class="button u-full-width">Empty Cart</a>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="main-img">
+        <div class="main-title">
+            <h2>Coffee Time</h2>
+            <h3>Drink our best selection of Colombian coffee </h3>
+        </div>
+    </div>
+
+    <!-- products sections-->
+    <div id="products" class="products">
+        <div class="product-title">
+            <h2>Our Products</h2>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/02.png" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Colombian Supremo</h4>
+                        <p>Region: Bucaramanga, Santander</p>
+                        <img src="./images/estrellas.png">
+                        <p class="precio">$30  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/01.png" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Medellin Excelso</h4>
+                        <p>Region: Medellin, Antioquia</p>
+                        <img src="./images/estrellas.png">
+                        <p class="precio">$30  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/03.png" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Cafe Don Pablo</h4>
+                        <p>Region: Colombia, Honduras</p>
+                        <img src="./images/estrellas.png">
+                        <p class="precio">$30  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/04.png" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Coffee Kult</h4>
+                        <p>Region: Huila, Colombia</p>
+                        <img src="./images/estrellas.png">
+                        <p class="precio">$30  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+        </div>
+    </div>
+
+<!--FOOTER SECTION-->
+    <div class="footer" div="footer">
+        <h3></h3>
+        <a></a>
+
+
+    </div>
+<!--ENDS FOOTER SECTION-->
+   
+
+
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
+
+
