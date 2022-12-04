@@ -167,4 +167,19 @@ td:last-child {
     width: 100%;
     text-decoration: none;
 }
+
+/* FOOTER SECTION */
+.footer {
+    margin-top: 50px;
+    background-color: #203354;
+    color: #fff;
+    text-align: center;
+    height: 5vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.fas {
+    color: #203354;
+}
  
