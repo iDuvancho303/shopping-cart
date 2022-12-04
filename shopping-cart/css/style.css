@@ -169,6 +169,23 @@ td:last-child {
 }
 
 /* FOOTER SECTION */
+.container-footer {
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+.footer {
+    background-color: #24262b;
+    padding: 50px 0;
+}
 /* ENDS FOOTER SECTION */
 
