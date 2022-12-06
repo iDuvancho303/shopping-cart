@@ -170,8 +170,7 @@ td:last-child {
 
 /* FOOTER SECTION */
 .container-footer {
-    max-width: 1170px;
-    background-color: red;
+    max-width: 1170px; 
     margin: auto;
 }
 
@@ -190,6 +189,14 @@ ul {
 
 .footer-col {
     width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size:  18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 /* ENDS FOOTER SECTION */
 
