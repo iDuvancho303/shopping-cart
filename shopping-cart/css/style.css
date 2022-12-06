@@ -198,5 +198,11 @@ ul {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
+.footer-col ul {
+    line-height: 1.5;
+}
+
+
 /* ENDS FOOTER SECTION */
 
