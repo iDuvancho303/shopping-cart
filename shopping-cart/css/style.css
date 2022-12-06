@@ -102,9 +102,9 @@ td:last-child {
 
 .product-title h2  {
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     padding-top: 20px;
-    color: #b3671e;
+    color: #755139ff;
 }
 
 .row {
@@ -123,7 +123,7 @@ td:last-child {
     
 .u-pull-right {
     float: right;
-    color: #b3671e; 
+    color: #755139ff; 
 }
 
 
