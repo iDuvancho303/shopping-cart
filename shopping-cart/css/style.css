@@ -243,7 +243,22 @@ ul {
     line-height: 40px;
     border-radius: 50%;
     color: #fff;
+    transition: all 0.5 ease;
 }
 
+.footer-col .social-links a:hover {
+    color: #b3671e;
+    background-color: #fff;
+}
 /* ENDS FOOTER SECTION */
+
+
+
+/* RESPONSIVE */
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
 
