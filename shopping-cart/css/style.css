@@ -33,7 +33,7 @@ header h2 {
 
 #icon {
     font-size: 20px;
-    color: #b3671e;
+    color: #f2edd7ff;
     list-style: none;
 }
 
@@ -76,15 +76,15 @@ td:last-child {
 }
 
 .main-title h2 {
-    color: #203354;
+    color: #755139ff;
     font-size: 40px;
     padding-left: 20px;
     text-transform: uppercase;
 }
 
 .main-title h3 {
-    color: #203354;
-    font-size: 25px;
+    color: #755139ff;
+    font-size: 22px;
     padding-left: 20px;
     padding-top: 10px;
 
@@ -191,7 +191,7 @@ ul {
 
 .footer-col h4 {
     font-size:  18px;
-    color: #fff;
+    color: #f2edd7ff;
     text-transform: uppercase;
     margin-bottom: 25px;
     position: relative;
@@ -202,7 +202,7 @@ ul {
     position: absolute;
     left: 0;
     bottom:  -10px;
-    background-color: #f2edd7ff;
+    background-color: #fff;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
