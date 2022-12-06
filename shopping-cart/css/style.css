@@ -197,6 +197,18 @@ ul {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom:  -10px;
+    background-color: #b3671e;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
 }
 
 .footer-col ul {
