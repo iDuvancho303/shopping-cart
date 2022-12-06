@@ -183,7 +183,7 @@ ul {
     list-style: none;
 }
 .footer {
-    background-color: #24262b;
+    background-color: #755139ff;
     padding: 50px 0;
 }
 
@@ -205,7 +205,7 @@ ul {
     position: absolute;
     left: 0;
     bottom:  -10px;
-    background-color: #b3671e;
+    background-color: #f2edd7ff;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -247,7 +247,7 @@ ul {
 }
 
 .footer-col .social-links a:hover {
-    color: #b3671e;
+    color: #755139ff;
     background-color: #fff;
 }
 /* ENDS FOOTER SECTION */
