@@ -215,6 +215,17 @@ ul {
     line-height: 1.5;
 }
 
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+     
+}
 
 /* ENDS FOOTER SECTION */
 
