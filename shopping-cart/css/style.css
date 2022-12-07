@@ -125,9 +125,9 @@ td:last-child {
 
 
 .product-title h2  {
-    text-align: left;
+    text-align: center;
     font-size: 35px;
-    padding-top: 20px;
+    padding-top: 90px;
     color: #755139ff;
     text-transform: uppercase;
     letter-spacing: 5px;
