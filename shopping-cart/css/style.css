@@ -259,7 +259,18 @@ ul {
 }
 
 .row-a {
-    display: inline-block;
+    display: flex;
+}
+
+.row-a i {
+    color: #755139ff;
+    font-size: 25px;
+}
+
+.row-a p {
+    font-size: 25px;
+    color: #755139ff;
+    padding-left: 20px;
 }
 
 
