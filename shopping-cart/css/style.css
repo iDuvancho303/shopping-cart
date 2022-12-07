@@ -258,6 +258,10 @@ ul {
     height: 20vh;
 }
 
+.row-a {
+    display: inline-block;
+}
+
 
 
 /* RESPONSIVE */
