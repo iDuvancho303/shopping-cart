@@ -125,7 +125,7 @@ td:last-child {
 
 
 .product-title h2  {
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     padding-top: 20px;
     color: #755139ff;
@@ -184,8 +184,8 @@ td:last-child {
 
 .button.button-primary {
     color: #FFF;
-    background-color: #203354;
-    border-color: #203354;
+    background-color: #755139ff;
+    border-color: #755139ff;
     padding: 8px 10px;
     width: 100%;
     text-decoration: none;
